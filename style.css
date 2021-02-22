@@ -39,3 +39,8 @@ a:active {
   height: auto;
   width: 100%;
 }
+
+i {
+  font-size: 1.8em;
+  padding: .5em
+}
