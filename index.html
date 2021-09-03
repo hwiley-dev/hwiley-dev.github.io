@@ -66,15 +66,47 @@
       </div>
 </header>
 
+
+<div class="container pt-4 pb-4">  
   <!-- 1. Portfolio  Start -->
-  <div class="container pt-4 pb-4">  
-    <div class="row justify-content-center mt-4 pt-2" id="portfolio">
-    <h1 class="font-italic py-5">Portfolio</h1></div>
-    <div class="row justify-content-center mt-4 pb-3">
-      <span class="badge badge-pill badge-dark px-3">
-        <h2 class="font-italic py-2">API &amp; Data Storage</h2>
-      </span>
-      </div>
+    <div class="container mt-4 mb-5 pt-4 pb-6" id="design">  
+      <div class="row justify-content-center mt-4">
+        <span class="badge badge-pill badge-dark px-3">
+          <h2 class="font-italic py-2">Frontend Design</h2>
+        </span>
+        </div>
+        <div class="row pt-4">
+          <div class="col-1"></div>
+          
+          <div class="col-1"></div>
+        </div>
+        <div class="mt-2 mb-5 d-flex flex-row justify-content-center rounded px-2 py-3">
+          <div>
+            <a href="https://mundandemag.com" class="dark">
+              <img class="image-fluid mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/mundane.png"  />
+            </a>
+          </div>
+          <div>
+            <a href="https://www.duncanautrey.com" class="dark">
+              <img class="mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/duncanautrey-sm.png" />
+            </a>
+          </div>
+          <div>
+            <a href="https://ferrentinolaw.com" class="dark">
+              <img class="mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/ferrlaw.png" />
+            </a>
+          </div>
+        </div>  
+  </div>
+
+
+  <div class="container mt-4 mb-5 pt-4 pb-6" id="data-api">
+    <div class="row justify-content-center pt-5 mt-5">
+       <span class="badge badge-pill badge-dark px-3">
+         <h2 class="font-italic py-2">API &amp; Data Storage</h2>
+       </span>
+     </div>
+      
       <div class="d-flex justify-content-center">
         <!-- ADD BRAND LOGOS HERE -->
         <div class="px-5">
@@ -86,62 +118,30 @@
       </div>
       <div class="row pt-4">
         <div class="col-1"></div>
-        <div class="col-10 d-flex justify-content-center"><p>  Select a project below to see more about the tech stack used and my specific role.</p></div>
+        <div class="col-10 d-flex justify-content-center"><p>Select a project below to view the live Heroku deployed web app.</p></div>
         <div class="col-1"></div>
       </div>
       <div class="mt-5 d-flex flex-row justify-content-center rounded px-2 pt-3 pb-3">
-        <div>
-          <a href="#" class="dark">
+        <div><p>Spotify Web API</p>
+          <a href="https://demjukebox-testing.herokuapp.com" class="dark" target="_blank"> 
             <img class="image-fluid rounded-circle mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/mongodb-sm.jpg"  />
           </a>
         </div>
-        <div>
-          <a href="https://demjukebox-testing.herokuapp.com" class="dark">
+        <div><p>Youtube Data API</p>
+          <a href="https://demjukebox-testing.herokuapp.com" class="dark" target="_blank">
             <img class="rounded-circle mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/yt.jpg" />
           </a>
         </div>
-        <div>
-          <a href="https://demjukebox-testing.herokuapp.com/?" class="dark">
+        <div><p>Firebase Protoyping</p>
+          <a href="#" class="dark" target="_blank">
             <img class="rounded-circle mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/firebase.png" />
           </a>
         </div>
       </div>
-     
-</div>
-
-  <div class="container pt-4 pb-4" id="design">  
-    <div class="row justify-content-center mt-4">
-      <span class="badge badge-pill badge-dark px-3">
-        <h2 class="font-italic py-2">Frontend &amp; Design</h2>
-      </span>
-      </div>
-      <div class="row pt-4">
-        <div class="col-1"></div>
-        <div class="col-10 d-flex justify-content-center"><p>Select a project below to see more about the tech stack used and my specific role.</p></div>
-        <div class="col-1"></div>
-      </div>
-      <div class="mt-5 d-flex flex-row justify-content-center rounded px-2 pt-3 pb-3">
-        <div>
-          <a href="#" class="dark">
-            <img class="image-fluid mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/mundane.png"  />
-          </a>
-        </div>
-        <div>
-          <a href="https://www.duncanautrey.com" class="dark">
-            <img class="mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/duncanautrey-sm.png" />
-          </a>
-        </div>
-        <div>
-          <a href="https://ferrentinolaw.com" class="dark">
-            <img class="mx-auto d-block proj-thmb px-md-1 px-1" src="./assets/img/ferrlaw.png" />
-          </a>
-        </div>
-      </div>
-     
-</div>
+    </div>
 
 <!-- Mobile -->
-  <div class="container pt-4 pb-4" id="mobile">  
+  <div class="container mt-4 mb-5 pt-4 pb-6" id="mobile">  
     <div class="row justify-content-center mt-4">
       <span class="badge badge-pill badge-dark px-3">
         <h2 class="font-italic py-2">iOS &amp; Android Development</h2>
@@ -149,7 +149,9 @@
       </div>
       <div class="row pt-4">
         <div class="col-1"></div>
-        <div class="col-10 d-flex justify-content-center"><p>React Native mobile app development projects.</p></div>
+        <div class="col-10 d-flex justify-content-center">
+          <p>React Native mobile app development projects.</p>
+        </div>
         <div class="col-1"></div>
       </div>
       <div class="mt-5 d-flex flex-row justify-content-center rounded px-2 pt-3 pb-3">
@@ -172,7 +174,7 @@
 </div>
 
 <!--Music Technology -->
-  <div class="container pt-4 pb-4" id="music-tech">  
+  <div class="container mt-4 mb-5 pt-4 pb-6" id="music-tech">  
     <div class="row justify-content-center mt-4">
       <span class="badge badge-pill badge-dark px-3">
         <h2 class="font-italic py-2">Music Technology &amp; Hardware</h2>
@@ -204,7 +206,10 @@
 </div>
 
 
+  
+</div>
 
+ 
 <!--  jQuery and Bootstrap Bundle (includes Popper) --> 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
