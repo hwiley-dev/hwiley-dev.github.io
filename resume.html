@@ -1,121 +1,174 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" >
-<link rel="stylesheet" href="style.css" >
-<title>Hunter Wiley | Software Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Resume | Hunter Wiley</title>
 </head>
-  <!-- START -->
-<body > 
-<!-- NAV 
-To Do:
--Make Collapsable mobile nav
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index.html">HW Audio Lab</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#devices">Devices</a>
+        <a href="index.html#ambient">Ambient</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small" href="mailto:hunter@hunterwiley.tech">Email</a>
+    </div>
+  </header>
 
--->
-<!-- NAV A -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarToggler">
-    <ul class="navbar-nav mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Portfolio</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-  
-<!-- START HEADER  -->
-  <div class="container">
-    <div class="row">
-       <hgroup class="mt-md-5 mx-auto text-center pb-md-4 pt-2">
-          <div class="pb-3 pb-md-3">
-            <h1 class="font-weight-bold">Resume</h1>        
-          </div>            
-          <!-- <p>Download a resume PDF <a src="">here</a></p>. -->
-        </hgroup>
-      </div>
-      </div>
-        
-  <!-- START MAIN Module -->
-  <div class="container pt-4">  
-   <div>
-     <div class="col d-flex justify-content-center">
-       <div class="content mt-4">
-         <div class="py-4">
-           <h2>Technology Summary</h2>
+  <main>
+    <section class="hero" style="background-image: linear-gradient(130deg, rgba(3,5,11,0.9), rgba(5,8,20,0.8)), url('assets/img/ableton.jpg'); background-position: center;">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Resume</p>
+          <h1>Hunter Wiley — Audio Producer & Experience Designer</h1>
+          <p class="lead">I blend audio production, creative coding, and hardware prototyping to design restorative sonic environments.</p>
+          <div class="hero-actions">
+            <a class="btn" href="mailto:hunter@hunterwiley.tech">Download PDF</a>
+            <a class="btn ghost" href="https://www.linkedin.com/in/hunterwiley" target="_blank" rel="noopener">LinkedIn</a>
           </div>
-          <h5>Languages &amp; Frameworks</h5>
-           <ul class="py-3">
-             <li>Node.js</li>
-             <li>Javascript ES6, Three.js, React.js, Magenta.js</li>
-             <li>HTML5, CSS3, Bootstrap</li>
-             <li>Python</li>
-            </ul>
-            <h5>Database &amp; REST API</h5>
-            <ul class="py-3">
-              <li>MongoDB</li>
-              <li>AWS - Amazon Web Store</li>
-              <li>Google Cloud</li>
-              <li>Firebase</li>
-              <li>SQL</li>
-            </ul>
-            <h5>Tools / Systems</h5>
-            <ul class="py-3">
-              <li>Git version control</li>
-              <li>Heroku Deployment</li>
-              <li>Linux, Mac OSX, Docker</li>
-            </ul>
-            <div class="pt-4" id="experience">
-              <div>
-                <h2>Experience</h2>
-              </div>
-              <div class="item py-3">
-                <h4>Ferrentino & Associates (2018- present)</h4>
-                <p>IT Support &amp; Marketing Strategy</p>
-                <ul>
-                  <li>Site Design, Development &amp; Maintenance</li>
-                  <li>Marketing Strategy - Google Adwords / Facebook Ads</li>
-                  <li>Javascript/jQuery, Wordpress Admin + Maintenance</li>
-                  <li>Mailchimp API</li>
-                  <li>Pipdrive - Lead generation & database management</li>
-                </ul>
-              </div>
-              <div class="item py-3">
-                <h3>Ferrentino & Associates (2015- 2018)</h3>
-                <p>Adminstrative Assistant</p>
-                <ul>
-                  <li>Transcript review</li>
-                  <li>Powerpoint, Microsoft Word, Photoshop</li>
-                  <li>MS Outlook Email &amp; Task Management</li>
-                
-                </ul>
-              </div>
-              <div class="item py-3">
-                <h3>Adaept</h3>
-                <p>Web Dev & Design (2020 - present)</p>
-                <ul>
-                  <li>Creating custom multimedia content for marketing/promo</li>
-                  <li>Site development, design optimization & maintenance </li>
-                  <li>Implementing Best Practices SEO & Keyword Research</li>
-                </ul>
-              </div>
+        </div>
+        <div class="panel-card">
+          <p class="eyebrow">Quick facts</p>
+          <dl class="stat-grid">
+            <div>
+              <dt>San Francisco, CA</dt>
+              <dd>Remote & travel-friendly</dd>
             </div>
+            <div>
+              <dt>Dual practice</dt>
+              <dd>Audio production + creative tech</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Expertise</p>
+          <h2>Core skills</h2>
+          <ul class="checklist">
+            <li>Spatial audio composition, mixing, and mastering</li>
+            <li>Sound design for wellness, film, and interactive installations</li>
+            <li>Hardware prototyping (Raspberry Pi, Teensy, Arduino)</li>
+            <li>Creative technology (JavaScript/TypeScript, React, Node.js, Python)</li>
+            <li>Product strategy, facilitation, and documentation</li>
+          </ul>
+        </div>
+        <div class="panel-card">
+          <p class="eyebrow">Toolbox</p>
+          <div class="tag-row">
+            <span class="tag">Ableton Live</span>
+            <span class="tag">SuperCollider</span>
+            <span class="tag">Max for Live</span>
+            <span class="tag">Magenta.js</span>
+            <span class="tag">TensorFlow</span>
+            <span class="tag">React / React Native</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">AWS & Firebase</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Git</span>
           </div>
         </div>
       </div>
-  </div>
+    </section>
 
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2>Recent roles & collaborations</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Creative Technologist & Audio Lead — Adaept (2020 — Present)</h3>
+            <ul>
+              <li>Design immersive sonic identities for civic, art, and wellness partners.</li>
+              <li>Lead web + mobile builds supporting installations, product launches, and memberships.</li>
+              <li>Produce multimedia content (video, audio, interaction design) that scales across campaigns.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Producer & Technical Strategist — Ferrentino & Associates (2015 — Present)</h3>
+            <ul>
+              <li>Own the firm’s digital ecosystem: website, marketing automation, and analytics.</li>
+              <li>Compose podcast intros, legal seminar bumpers, and branded meditation cues.</li>
+              <li>Deploy CRM and automation workflows with Google Cloud, AWS, and Mailchimp.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Independent Audio Producer (2012 — Present)</h3>
+            <ul>
+              <li>Release ambient albums, sample libraries, and meditation packs licensed by studios worldwide.</li>
+              <li>Tour as a modular synth performer for yoga retreats and art galleries.</li>
+              <li>Consult on custom hardware builds, including breathwork consoles and tactile lighting.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  </body>
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Selected achievements</p>
+          <h2>Highlights</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Immersive wellness residencies</h3>
+            <p>Designed 60+ sound baths and meditation residencies with multi-channel scoring + lighting control.</p>
+          </article>
+          <article class="card">
+            <h3>Hardware releases</h3>
+            <p>Shipped four boutique devices for facilitators including breath consoles and loop engines.</p>
+          </article>
+          <article class="card">
+            <h3>Technical leadership</h3>
+            <p>Guided cross-functional teams through research, prototyping, and product launches across mediums.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Collaborate</p>
+          <h2>Available for custom compositions, device builds, and consulting.</h2>
+        </div>
+        <div class="contact-card">
+          <p class="label">Email</p>
+          <a href="mailto:hunter@hunterwiley.tech">hunter@hunterwiley.tech</a>
+          <p class="label">Portfolio</p>
+          <a href="index.html#portfolio">Listen to recent work</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Hunter Wiley</p>
+      <div>
+        <a href="about.html">About</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>

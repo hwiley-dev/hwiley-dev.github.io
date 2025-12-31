@@ -1,93 +1,147 @@
 <!doctype html>
 <html lang="en">
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<link rel="stylesheet" href="./node_modules/normalize.css/normalize.css" >
-<link rel="stylesheet" href="style.css" >
-<title>Hunter Wiley | Software Developer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>About Hunter Wiley | HW Audio Lab</title>
 </head>
-  <!-- START -->
-<body >
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index.html">HW Audio Lab</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#devices">Devices</a>
+        <a href="index.html#ambient">Ambient</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small" href="resume.html">Resume</a>
+    </div>
+  </header>
 
-   
-<!-- NAV  
-To Do:
--Make Collapsable mobile nav
--->
-<!-- NAV A -->
-<nav class="navbar navbar-expand navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
-    <ul class="navbar-nav mt-2 mt-lg-0">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./resume.html">Resume</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-  
-<!-- START HEADER  -->
-<header class="container pb-4" id="navHome">
-    <div class="row">
-        <hgroup class="mt-3 mt-md-5 mx-auto text-center pb-md-4 pt-2">
-          <div class="pb-3">
-            <h1 class="font-weight-bold">About Hunter</h1>
-            <h4 class="pb-4">
-              Technology | Design | Music
-          </h4>            
-          </div>            
-          <img class="rounded-circle justify-content-center mt-2" width="150px" height="150px" src="assets/img/hw.jpg" />
-        </hgroup>
+  <main>
+    <section class="hero" style="background-image: linear-gradient(140deg, rgba(3,5,11,0.85), rgba(5,8,18,0.65)), url('assets/img/hw-thmb.jpg'); background-position: center;">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Human-centered sound design</p>
+          <h1>About Hunter</h1>
+          <p class="lead">Producer, sound designer, and technologist with a decade of experience translating wellness intentions into immersive sonic worlds and custom-built devices.</p>
+          <div class="hero-actions">
+            <a class="btn" href="index.html#portfolio">Explore work</a>
+            <a class="btn ghost" href="mailto:hunter@hunterwiley.tech">Book a collaboration</a>
+          </div>
+        </div>
+        <div class="panel-card">
+          <p class="eyebrow">Disciplines</p>
+          <ul class="checklist">
+            <li>Audio production & mastering</li>
+            <li>Hardware prototyping</li>
+            <li>Creative technology leadership</li>
+            <li>Meditation & yoga facilitation support</li>
+          </ul>
+        </div>
       </div>
-      <!-- WELCOME NOTE -->
-      <div class="row justify-content-center">
-       
-        <div class="mt-4 pt-4 px-1 px-sm-4 col-6">
-          <!-- Put in blinky text of font Lucida Console for "Hi..." See npm library -->
-          <p class="pb-5">
-           When I'm not designing or developing websites and apps, I'm making or learning about music, baking banana bread or out climbing mountains. <br>
-            <br>
-           Are you interested in working together?
-          </p>
-          <p> Check out more info on my projects related to music, technology, meditation and outdoor sports at my blog <strong> <a href="https://hunterwiley.tech">site.</a></strong></p>
-  
-        </div>    
-       
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Roots</p>
+          <h2>Music + technology + mindfulness.</h2>
+          <p>I grew up between recording studios and outdoor spaces. Today, I bridge those influences by crafting soundtracks, interactive environments, and tools that help people slow down. My practice blends Ableton, SuperCollider, modular synths, spatial audio, and modern web/mobile stacks.</p>
+          <p>Whether I am designing generative patches, building a tactile controller, or mixing a sound bath album, the goal stays the same: create a safe and inspiring container for listeners.</p>
+        </div>
+        <div class="panel-card">
+          <p class="eyebrow">Capabilities snapshot</p>
+          <ul class="checklist">
+            <li>Spatial audio production (Atmos, ambisonics)</li>
+            <li>Custom device design (Pi, Teensy, Arduino)</li>
+            <li>Application development (React, Node, Python)</li>
+            <li>Workshop facilitation & sonic storytelling</li>
+          </ul>
+        </div>
       </div>
-</header>
-      
+    </section>
 
-    
-  
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Values</p>
+          <h2>Every project is guided by listening, experimentation, and care.</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card">
+            <h3>Listening first</h3>
+            <p>Before touching a synth or script, I gather stories from facilitators, audiences, and stakeholders. The emotional blueprint drives the technical plan.</p>
+          </article>
+          <article class="card">
+            <h3>Prototype brave ideas</h3>
+            <p>Quick sketches—in sound or code—make it easy to react, iterate, and discover what truly moves people.</p>
+          </article>
+          <article class="card">
+            <h3>Build for longevity</h3>
+            <p>Every deliverable includes documentation, presets, and training so your team can operate with confidence long after the premiere.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Timeline</p>
+          <h2>Selected milestones</h2>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Creative Technologist — Adaept</h3>
+            <p>Lead digital and audio experiences for civic and arts partners. Build custom multimedia campaigns blending sound, responsive web, and interactive installations.</p>
+          </article>
+          <article class="card">
+            <h3>Audio Producer — Ferrentino & Associates</h3>
+            <p>Developed the firm’s marketing sound bed, podcasts, and live event audio/visual kits while owning broader IT strategy.</p>
+          </article>
+          <article class="card">
+            <h3>Independent releases</h3>
+            <p>Published dozens of ambient collections, meditation scores, and sample libraries for facilitators, yoga studios, and boutique music labels.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  
-    <!-- Optional JavaScript; choose one of the two! -->
+    <section class="section contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Let's talk</p>
+          <h2>I love working with thoughtful teams who care about craft.</h2>
+          <p>Share your intention, audience, and timing—I’ll respond with a tailored path forward.</p>
+        </div>
+        <div class="contact-card">
+          <p class="label">Email</p>
+          <a href="mailto:hunter@hunterwiley.tech">hunter@hunterwiley.tech</a>
+          <p class="label">Journal</p>
+          <a href="https://hunterwiley.tech" target="_blank" rel="noopener">hunterwiley.tech</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
-  </body>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Hunter Wiley</p>
+      <div>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="resume.html">Resume</a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
