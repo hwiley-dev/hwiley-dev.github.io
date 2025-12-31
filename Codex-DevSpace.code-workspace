@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "Codex-DevSpace",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
