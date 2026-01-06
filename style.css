@@ -188,6 +188,28 @@ a:hover {
   accent-color: var(--accent);
 }
 
+.soundcloud-embed {
+  margin-top: 1rem;
+}
+
+.soundcloud-embed iframe {
+  width: 100%;
+  height: 300px;
+  border: 0;
+  border-radius: 16px;
+}
+
+.soundcloud-link {
+  display: inline-flex;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.soundcloud-link:hover {
+  color: var(--ink);
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.2em;

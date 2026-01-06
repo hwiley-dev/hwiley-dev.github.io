@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Music Technology Research — Hunter Wiley</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="logo" href="index.html">HW Audio Lab</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html#services">Services</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#devices">Research</a>
+        <a href="index.html#ambient">Lessons</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <a class="btn btn-small" href="resume.html">Resume</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="background-image: linear-gradient(120deg, rgba(3,5,11,0.9), rgba(5,8,20,0.8)), url('assets/img/ableton.jpg'); background-position: center;">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="eyebrow">Research prototypes</p>
+          <h1>Music Technology Projects</h1>
+          <p class="lead">Documentation, build notes, and repository links for software-first tools and experimental prototypes at the intersection of music and neurotech.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#projects">Explore projects</a>
+            <a class="btn ghost" href="mailto:hunter@hunterwiley.tech">Contact about a prototype</a>
+          </div>
+        </div>
+        <div class="panel-card">
+          <p class="eyebrow">Current focus</p>
+          <h3>Resonant Field Controller</h3>
+          <p>Prototype research tool blending biometric input and Ableton Live control. Notes include mapping studies, design iterations, and evaluation ideas.</p>
+          <a class="btn ghost" href="#projects">Open notes</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Project index</p>
+          <h2>Selected research writeups</h2>
+          <p>Click a project to see implementation notes, source links, and experimental directions.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card portfolio-card">
+            <img src="assets/img/rasPi.png" alt="Resonant Field Controller" loading="lazy">
+            <div>
+              <h3>Resonant Field Controller</h3>
+              <p>Heart-rate sensing, OSC bridge to Ableton, and a session manager exploring biofeedback-driven control.</p>
+              <a class="btn secondary" href="https://github.com/hwiley-dev/resonant-field-controller" target="_blank" rel="noopener">View repo</a>
+            </div>
+          </article>
+
+          <article class="card portfolio-card">
+            <img src="assets/img/ableton.jpg" alt="Ableton Toolkit" loading="lazy">
+            <div>
+              <h3>Skyline Stories Toolkit</h3>
+              <p>Samples, Max patches, and Ableton racks used to study evolving textures and perception.</p>
+              <a class="btn secondary" href="https://github.com/hwiley-dev/skyline-toolkit" target="_blank" rel="noopener">View repo</a>
+            </div>
+          </article>
+
+          <article class="card portfolio-card">
+            <img src="assets/img/dj_1920.jpg" alt="Performance rig" loading="lazy">
+            <div>
+              <h3>Performance rig studies</h3>
+              <p>Notes on low-latency routing, control design, and rehearsal workflows for experimental sets.</p>
+              <a class="btn secondary" href="mailto:hunter@hunterwiley.tech">Request notes</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>&copy; <span id="year"></span> Hunter Wiley — Music Technology & Neurotech</p>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
