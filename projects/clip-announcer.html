@@ -35,7 +35,7 @@
       <a class="back-link" href="../index.html#projects">&larr; Back to selected work</a>
 
       <section class="panel subpage-hero">
-        <p class="eyebrow">Project 01</p>
+        <p class="eyebrow">Accessibility Tool</p>
         <h1>Clip Announcer</h1>
       </section>
 
@@ -43,18 +43,20 @@
         <article class="panel subpage-card">
           <h2>Description</h2>
           <p>
-            Clip Announcer is framed here as an accessibility-oriented workflow tool for clearer music session feedback
-            and navigation.
+            Clip Announcer is a Max for Live accessibility tool that reads the current clip context in Ableton Live and
+            speaks a deterministic summary using macOS text-to-speech.
           </p>
 
           <h3>Problem Solved</h3>
           <p>
-            Reduces ambiguity around clip state and timing context so creators can move through sessions with greater confidence.
+            Ableton Live does not always expose highlighted clip context in a way that works well for screen-reader-based
+            workflows. Clip Announcer makes session navigation clearer by speaking track, slot, and state information on demand.
           </p>
 
           <h3>Target Users</h3>
           <p>
-            Musicians, producers, and anyone who benefits from stronger audible or explicit workflow cues during music creation.
+            Blind and low-vision producers, Max for Live users, and anyone who benefits from explicit spoken feedback while
+            working in Session View.
           </p>
         </article>
 
@@ -62,14 +64,18 @@
           <section class="panel subpage-card">
             <p class="meta-label">Links</p>
             <ul class="detail-list">
-              <li><a href="https://github.com/hwiley-dev" target="_blank" rel="noreferrer">GitHub profile</a></li>
-              <li><a href="../contact/index.html">Request current download details</a></li>
+              <li><a href="https://github.com/hwiley-dev/clip-announcer" target="_blank" rel="noreferrer">GitHub repository</a></li>
+              <li><a href="https://raw.githubusercontent.com/hwiley-dev/clip-announcer/main/dist/ClipAnnouncer.amxd" target="_blank" rel="noreferrer">Download device</a></li>
             </ul>
           </section>
 
           <section class="panel subpage-card">
-            <p class="meta-label">Status</p>
-            <p>Project page scaffolded in Phase 1. Detailed documentation can be filled in without changing the site structure.</p>
+            <p class="meta-label">Key Details</p>
+            <ul class="detail-list">
+              <li>Three trigger categories: WHERE, WHAT, STATE</li>
+              <li>Built for Ableton Live with Max for Live</li>
+              <li>Speech output uses macOS text-to-speech</li>
+            </ul>
           </section>
         </aside>
       </section>

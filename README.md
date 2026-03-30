@@ -8,10 +8,11 @@ This site is a minimalist portfolio for Hunter Wiley's work in accessible music 
 
 ## Deployment Instructions
 
-1. Push the contents of this repository to the branch used for GitHub Pages, typically `main`.
-2. In GitHub, open the repository settings and enable GitHub Pages for the root of that branch.
-3. Confirm that the `CNAME` file remains committed so the custom domain stays attached.
-4. After Pages finishes building, verify that `hunter-wiley.com` resolves to the deployed site.
+1. Commit changes locally.
+2. Push to `main`.
+3. GitHub Pages deploys the root of `main` for the live site.
+4. Confirm that the `CNAME` file remains committed so the custom domain stays attached.
+5. After Pages finishes building, verify that `hunter-wiley.com` resolves to the deployed site.
 
 For a quick local preview, run:
 
@@ -38,5 +39,5 @@ Then open `http://localhost:8000`.
 
 - Edit content directly in the HTML files under the root, `about/`, `contact/`, and `projects/`.
 - Keep shared visual changes in `styles.css`.
-- Replace any placeholder links or summary copy with finalized public URLs and case-study details as content becomes available.
+- Keep public copy factual and user-facing; avoid build notes, placeholder language, and internal project-management text.
 - Keep assets lightweight and store them under `assets/images/` or `assets/icons/`.
