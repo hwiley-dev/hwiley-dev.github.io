@@ -14,12 +14,13 @@ Expand the static portfolio site for `hunter-wiley.com` with an AI-assisted rese
 [x] Added core pages for home, about, contact, and project detail content.
 [x] Committed the `CNAME` file needed for the custom domain configuration.
 [x] Updated public contact email to `wileyhntr@gmail.com`.
-[x] Added `/research/` as an AI-assisted research library with readable on-page text and PDF links.
-[x] Copied six research PDFs into deployable site assets.
+[x] Added `/research/` as an AI-assisted research library with readable on-page text.
+[x] Added six research papers as readable on-page text.
 [x] Added Research navigation across the home page, subpages, and project pages.
 [x] Added a home page research callout that links to the new research library.
 [x] Cleaned Research links to use directory URLs instead of exposing `index.html`.
-[x] Audited the research library update: verified local links, clean Research URLs, email replacement, six PDF assets, and six readable paper sections.
+[x] Audited the research library update: verified local links, clean Research URLs, email replacement, and six readable paper sections.
+[x] Removed deployed research PDF assets and public PDF download links from the site.
 
 ## Known Issues
 - No automated test or build pipeline is present; site verification is currently manual.
