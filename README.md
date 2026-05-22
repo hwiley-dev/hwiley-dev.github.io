@@ -4,7 +4,7 @@ Static portfolio site for `hunter-wiley.com`, built for GitHub Pages with a ligh
 
 ## Project Description
 
-This site is a minimalist portfolio for Hunter Wiley's work in accessible music systems, human-centered tools, and technical systems work. The implementation is intentionally static and framework-free so it stays fast, maintainable, and easy to deploy.
+This site is a minimalist portfolio for Hunter Wiley's independent research and systems work across AI safety, accessibility, infrastructure, and human-centered tools. The implementation is intentionally static and framework-free so it stays fast, maintainable, and easy to deploy.
 
 ## Deployment Instructions
 
@@ -37,7 +37,7 @@ Then open `http://localhost:8000`.
 
 ## Maintenance Instructions
 
-- Edit content directly in the HTML files under the root, `about/`, `contact/`, and `projects/`.
+- Edit content directly in the HTML files under the root, `about/`, `contact/`, `accessibility-tooling/`, and `projects/`.
 - Keep shared visual changes in `styles.css`.
 - Keep public copy factual and user-facing; avoid build notes, placeholder language, and internal project-management text.
 - Keep assets lightweight and store them under `assets/images/` or `assets/icons/`.
