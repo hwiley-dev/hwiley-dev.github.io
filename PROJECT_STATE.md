@@ -27,6 +27,7 @@ Expand the static portfolio site for `hunter-wiley.com` with an AI-assisted rese
 [x] Strengthened the Research page intro and added a Research Method section clarifying Hunter Wiley's authorship and AI-assisted workflow.
 [x] Updated homepage, research card, about, contact, and README copy to foreground independent AI safety, accessibility, and infrastructure research for Anthropic Fellows-facing review.
 [x] Added `/accessibility-tooling/` as a dedicated landing page for Clip Announcer and accessible creative workflow work.
+[x] Added the Clip Announcer Gumroad link to the `/accessibility-tooling/` featured device section.
 
 ## Known Issues
 - No automated test or build pipeline is present; site verification is currently manual.
